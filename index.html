@@ -1,10 +1,67 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <title>건엽님의 첫 페이지</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김건엽 - 개발자 포트폴리오</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #2c3e50; color: white; padding: 2rem 1rem; text-align: center; }
+    nav { background: #1abc9c; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem 1rem; max-width: 800px; margin: auto; }
+    h2 { color: #2c3e50; border-bottom: 2px solid #ddd; padding-bottom: 0.5rem; }
+    .skills span { display: inline-block; background: #3498db; color: white; padding: 0.3rem 0.6rem; margin: 0.3rem; border-radius: 5px; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 1rem; }
+  </style>
 </head>
 <body>
-  <h1>안녕하세요!</h1>
-  <p>여기는 건엽님의 GitHub Pages입니다.</p>
+  <header>
+    <h1>김건엽</h1>
+    <p>동의과학대학교 소프트웨어과 | 예비 개발자</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>안녕하세요! 저는 동의과학대학교 소프트웨어과에 재학 중인 김건엽입니다. 다양한 개발 기술을 익히며 성장 중이며, 앞으로 사용자에게 편리함을 주는 소프트웨어를 만들고 싶은 꿈이 있습니다.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Java</span>
+      <span>Python</span>
+      <span>Android Studio</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>캘린더 앱 (Android)</strong> - Firebase를 연동하여 일정 추가 및 공유 기능 구현</li>
+      <li><strong>학과 홈페이지 클론</strong> - HTML/CSS로 정적 웹사이트 구현</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: gonyup@example.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kim Gunyeob. All rights reserved.</p>
+  </footer>
 </body>
 </html>
